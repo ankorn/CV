@@ -1,0 +1,19 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "My curriculum vitae.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankorn/CV.git"
+  },
+  "author": "Anton Korneyev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankorn/CV/issues"
+  },
+  "homepage": "https://github.com/ankorn/CV#readme"
+}
