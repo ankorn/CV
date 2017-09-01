@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../header';
-import CVText from '../CVText';
+import CV from '../cv';
 
 import './app.css';
 
@@ -9,7 +9,7 @@ export default class App extends Component {
     return (
       <div>
         <Header />
-        <CVText />
+        <CV />
       </div>
     );
   }

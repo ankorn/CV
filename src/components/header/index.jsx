@@ -5,13 +5,12 @@ export default class Header extends Component {
   render() {
     return (
       <div className="header">
-        <img className="avatar" alt="Loading..." src="https://avatars.githubusercontent.com/ankorn" />
+        <span className="name">Антон Корнеев</span>
         <ul className="navigation-bar">
-          <li>Main</li>
-          <li>Contacts</li>
-          <li>Chat</li>
+          <li>cv</li>
+          <li>контакты</li>
+          <li>задачи</li>
         </ul>
-        <img className="github-mark" alt="Loading..." src="src/images/GitHub-Mark-64px.png" />
       </div>
     );
   }
