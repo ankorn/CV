@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/ankorn/CV/issues"
   },
-  "homepage": "https://github.com/ankorn/CV#readme",
+  "homepage": "https://ankorn.github.io/CV/",
   "devDependencies": {
     "babel-core": "^6.13.2",
     "babel-loader": "^6.4.1",
