@@ -5,11 +5,11 @@ export default class Header extends Component {
   render() {
     return (
       <div className="header">
-        <span className="name">Антон Корнеев</span>
         <ul className="navigation-bar">
+          <li><span className="name">Ant<span className="name-part">on</span> Korneyev</span></li>
           <li>cv</li>
-          <li>контакты</li>
-          <li>задачи</li>
+          <li>contacts</li>
+          <li>tasks</li>
         </ul>
       </div>
     );

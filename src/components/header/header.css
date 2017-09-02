@@ -1,3 +1,5 @@
+@import 'https://fonts.googleapis.com/css?family=Prompt';
+
 .header {
   width: 100%;
   display: -webkit-flex; 
@@ -15,11 +17,17 @@
 }
 
 .navigation-bar li {
-  margin-left: 40px;
+  margin-left: 45px;
 }
 
 .name {
+  font-family: 'Prompt';
   align-self: flex-end;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 58px;
+}
+
+.name-part {
+  font-weight: bold;
+  color: #be0000;
 }
