@@ -4,8 +4,6 @@
   "description": "My curriculum vitae.",
   "main": "index.js",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "webpack-dev-server --hot --inline",
     "build": "webpack"
   },
@@ -37,7 +35,6 @@
     "webpack-dev-server": "^2.6.1"
   },
   "dependencies": {
-    "gh-pages": "^1.0.0",
     "prop-types": "^15.5.10",
     "react": "^15.5.0",
     "react-dom": "^15.5.0",
