@@ -5,7 +5,9 @@ module.exports = {
     './src/index.jsx',
   ],
   output: {
+    path: path.join(__dirname, 'build'),
     filename: 'bundle.js',
+    publicPath: '/static/',
   },
   module: {
     loaders: [
