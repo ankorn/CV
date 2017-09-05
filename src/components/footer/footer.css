@@ -1,0 +1,30 @@
+.links img {
+  width: 31px;
+  height: 31px;
+  display: block;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.nav li {
+  text-align: right;
+}
+
+.links, .nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100px;
+}
+
+.links {
+  margin-left: 10px;
+}
+
+.nav {
+  margin-right: 10px;
+}
