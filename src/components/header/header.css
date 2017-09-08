@@ -2,30 +2,22 @@
 
 .header {
   width: 100%;
-  display: -webkit-flex; 
-  display: flex;
-  justify-content: space-between;
   white-space: nowrap;
   margin-bottom: 70px;
 }
 
 .navigation-bar {
-  width: 100%;
+  width: 50%;
+  margin-left: auto;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: flex-end;
-}
-
-.navigation-bar li {
-  margin-left: 45px;
 }
 
 .name {
   font-family: 'Prompt';
   font-weight: bold;
-  font-size: 58px;
-  position: relative;
-  bottom: 3px;
+  font-size: 55px;
 }
 
 .name-part {

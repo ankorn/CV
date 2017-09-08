@@ -1,15 +1,13 @@
 import React from 'react';
 import './header.css';
 
+import Navbar from '../navbar';
+
 export default function Header() {
   return (
     <div className="header">
-      <ul className="navigation-bar">
-        <li><span className="name">Ant<span className="name-part">on</span> Korneyev</span></li>
-        <li>cv</li>
-        <li>contacts</li>
-        <li>tasks</li>
-      </ul>
+      <div className="name">Ant<span className="name-part">on</span> Korneyev</div>
+      <Navbar navbarclass="navigation-bar" />
     </div>
   );
 }
