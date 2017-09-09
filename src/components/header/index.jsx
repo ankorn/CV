@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <div className="header">
       <div className="name">Ant<span className="name-part">on</span> Korneyev</div>
-      <Navbar navbarclass="navigation-bar" />
+      <Navbar navbarclass="header-navbar" />
     </div>
   );
 }

@@ -15,11 +15,11 @@
   border-top: 1px solid #be0000;
 }
 
-.nav li {
+.footer-navbar li {
   text-align: right;
 }
 
-.links, .nav {
+.links, .footer-navbar {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -30,6 +30,6 @@
   margin-left: 15px;
 }
 
-.nav {
+.footer-navbar {
   margin-right: 15px;
 }

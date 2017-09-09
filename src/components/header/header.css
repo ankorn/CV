@@ -6,7 +6,7 @@
   margin-bottom: 70px;
 }
 
-.navigation-bar {
+.header-navbar {
   width: 50%;
   margin-left: auto;
   display: flex;
@@ -14,10 +14,15 @@
   align-items: flex-end;
 }
 
+.header-navbar li {
+  font-weight: bold;
+}
+
 .name {
   font-family: 'Prompt';
   font-weight: bold;
-  font-size: 55px;
+  font-size: 56.5px;
+  margin-bottom: 20px;
 }
 
 .name-part {
