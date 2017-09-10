@@ -1,4 +1,4 @@
-.links img {
+.footer-links img {
   width: 31px;
   height: 31px;
   display: block;
@@ -19,14 +19,14 @@
   text-align: right;
 }
 
-.links, .footer-navbar {
+.footer-links, .footer-navbar {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   height: 100px;
 }
 
-.links {
+.footer-links {
   margin-left: 15px;
 }
 
