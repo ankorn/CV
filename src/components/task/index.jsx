@@ -14,5 +14,10 @@ export default function Task({ text, date = 'no date', priority = 0 }) {
 Task.propTypes = {
   text: PropTypes.string.isRequired,
   date: PropTypes.string,
-  priority: PropTypes.number
-}
+  priority: PropTypes.number,
+};
+
+Task.defaultProps = {
+  date: 'no date',
+  priority: 0,
+};
